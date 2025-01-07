@@ -20,7 +20,7 @@ for file in ./*.dmp; do
         link="${base_url}${filename}"
         
         # Write the link to the output file
-        echo "$link" >> "$output_file"
+        echo "- $link" >> "$output_file"
     else
         echo "No .dmp files found in the directory."
     fi
